@@ -211,6 +211,15 @@
 		    		</td>
 					</tr>
 					<tr>
+						<td>Program Prioritas</td>
+						<td>
+							<?php echo $id_prog_prioritas; ?>
+							<p id="indikator-prioritas">
+								
+							</p>
+						</td>
+					</tr>
+					<tr>
 						<td>Urusan</td>
 						<td id="cmb-urusan">
 							<?php echo $kd_urusan; ?>

@@ -223,7 +223,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'H3yTh1sIs@n3ncrYPt10nK3y!';
+$config['encryption_key'] = 'sirenbangda_ng';
 
 /*
 |--------------------------------------------------------------------------
@@ -243,7 +243,7 @@ $config['encryption_key'] = 'H3yTh1sIs@n3ncrYPt10nK3y!';
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']		= 'simpanan';
+$config['sess_cookie_name']		= 'sirenbangda_ng';
 $config['sess_expiration']		= 28800;
 $config['sess_expire_on_close']	= True;
 $config['sess_encrypt_cookie']	= true;
@@ -363,10 +363,10 @@ $config['proxy_ips'] = '';
 $config['enable_profiling'] = false;
 
 
-$config['system_title'] = 'Sistem Informasi Akuntansi & Keuangan';
+$config['system_title'] = 'sirenbangda_ng';
 
 /*karena native session membutuhkan sess_namespace, maka perlu ditambah*/
-$config['sess_namespace']		= 'siaku';
+$config['sess_namespace']		= 'sirenbangda_ng';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */

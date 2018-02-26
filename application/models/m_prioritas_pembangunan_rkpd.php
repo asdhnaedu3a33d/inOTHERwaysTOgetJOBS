@@ -340,4 +340,10 @@ class M_prioritas_pembangunan_rkpd extends CI_Model
 	    $this->db->trans_complete();
 	    return $this->db->trans_status();
 	}
+
+	function get_prog_prioritas_by_skpd($id_skpd, $tahun){
+		$result = $this->db->query('SELECT * FROM '.$this->tx_prog_keg.' 
+			WHERE tahun = "'.$tahun.'"');
+		return $result;
+	}
 }

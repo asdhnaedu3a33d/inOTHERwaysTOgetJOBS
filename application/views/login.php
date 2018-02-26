@@ -110,8 +110,8 @@
             <select class="form-control" name="periode">
               <!-- <option value="production">2014 - 2018</option> -->
               <!-- <option value="production_2">2019 - 2023</option> -->
-              <option value="default">2014 - 2018</option>
-              <option value="group_2">2019 - 2023</option>
+              <option value="default">2019 - 2023</option>
+              <!-- <option value="group_2">2019 - 2023</option> -->
             </select>
           </div>
 				  <div class="row">

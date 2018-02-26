@@ -7,7 +7,7 @@ class Renja extends CI_Controller
 		$this->CI =& get_instance();
         parent::__construct();
         $this->load->model(array('m_renja_trx', 'm_skpd', 'm_template_cetak', 'm_lov', 'm_urusan', 'm_bidang', 'm_jenis_belanja', 'm_kategori_belanja', 'm_subkategori_belanja', 'm_kode_belanja',
-		                         'm_program', 'm_kegiatan','m_settings', 'm_rpjmd_trx'));
+		                         'm_program', 'm_kegiatan','m_settings', 'm_rpjmd_trx', 'm_prioritas_pembangunan_rkpd'));
 		//$this->load->helper('date');
         if (!empty($this->session->userdata("db_aktif"))) {
             $this->load->database($this->session->userdata("db_aktif"), FALSE, TRUE);
@@ -90,7 +90,7 @@ class Renja extends CI_Controller
 		$id_tahun	= $this->m_settings->get_id_tahun();
 
 		$kode_unit = $this->m_skpd->get_kode_unit($id_skpd);
-
+		
 		if ($kode_unit == $id_skpd) {
 			$renja = $this->m_renja_trx->insert_renja($id_skpd,$ta);
 			$result 	= $this->m_renja_trx->import_from_renstra($id_skpd,$ta,$id_tahun,$renja);
@@ -114,12 +114,14 @@ class Renja extends CI_Controller
 		$this->auth->restrict();
 		$id = $this->input->post('id');
 		$id_skpd = $this->session->userdata("id_skpd");
+		$ta = $this->m_settings->get_tahun_anggaran();
 		$data['skpd'] = $this->m_skpd->get_one_skpd(array('id_skpd' => $id_skpd));
 
 		$kd_urusan_edit = NULL;
 		$kd_bidang_edit = NULL;
 		$kd_program_edit = NULL;
 		$id_prog_rpjmd_edit = NULL;
+		$id_prog_prioritas_edit = NULL;
 		$data['status'] = NULL;
 		if (!empty($id)) {
 			$result = $this->m_renja_trx->get_one_program($id);
@@ -135,6 +137,7 @@ class Renja extends CI_Controller
 			$kd_bidang_edit = $result->kd_bidang;
 			$kd_program_edit = $result->kd_program;
 			$id_prog_rpjmd_edit = $result->id_prog_rpjmd;
+			$id_prog_prioritas_edit = $result->id_prioritas_daerah;
 			// print_r($result);
 			// exit;
 			//$data_indikator_rpjmd = $this->m_rpjmd_trx->get_indikator_program_rpjmd_for_me($result->id_prog_rpjmd);
@@ -143,6 +146,7 @@ class Renja extends CI_Controller
 				$c_rpjmd = $result->id_prog_rpjmd;
 			}
 			$data['indik_prog_rpjmd'] = $this->m_rpjmd_trx->get_indikator_program_rpjmd_for_me($c_rpjmd);
+
 		}
 
 
@@ -154,6 +158,11 @@ class Renja extends CI_Controller
 		$id_prog_rpjmd = array("" => "");
 		foreach ($this->m_rpjmd_trx->get_program_rpjmd_for_me($id_skpd) as $row) {
 			$id_prog_rpjmd[$row->id_nya] = $row->nama_prog;
+		}
+
+		$id_prog_prioritas = array("" => "");
+		foreach ($this->m_prioritas_pembangunan_rkpd->get_prog_prioritas_by_skpd($id_skpd, $ta)->result() as $row) {
+			$id_prog_prioritas[$row->id] = $row->id_prog_or_keg;
 		}
 
 		$status_indikator = array("" => "~~ Pilih Positif / Negatif ~~");
@@ -185,6 +194,7 @@ class Renja extends CI_Controller
 		$data['status_indikator'] = $status_indikator;
 		$data['kategori_indikator'] = $kategori_indikator;
 		$data['id_prog_rpjmd'] = form_dropdown('id_prog_rpjmd', $id_prog_rpjmd, $id_prog_rpjmd_edit, 'data-placeholder="Pilih Program RPJMD" class="common chosen-select" id="id_prog_rpjmd"');
+		$data['id_prog_prioritas'] = form_dropdown('id_prioritas_daerah', $id_prog_prioritas, $id_prog_prioritas_edit, 'data-placeholder="Pilih Program Prioritas" class="common chosen-select" id="id_prioritas_daerah"');
 		$data['kd_urusan'] = form_dropdown('kd_urusan', $kd_urusan, $kd_urusan_edit, 'data-placeholder="Pilih Urusan" class="common chosen-select" id="kd_urusan"');
 		$data['kd_bidang'] = form_dropdown('kd_bidang', $kd_bidang, $kd_bidang_edit, 'data-placeholder="Pilih Bidang Urusan" class="common chosen-select" id="kd_bidang"');
 		$data['kd_program'] = form_dropdown('kd_program', $kd_program, $kd_program_edit, 'data-placeholder="Pilih Program" class="common chosen-select" id="kd_program"');
