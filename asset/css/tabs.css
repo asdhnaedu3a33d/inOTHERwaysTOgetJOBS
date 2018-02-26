@@ -1,0 +1,94 @@
+/*http://www.htmldrive.net/items/show/542/Simple-Tabs-w-CSS-jQuery.html*/
+/*http://fearlessflyer.com/2012/01/how-to-create-super-easy-jquery-tabbed-containers/*/
+
+ul.innertabs {
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 20px; /*--Set height of tabs--*/
+    border-bottom: 1px solid #000;
+    /*border-left: 1px solid #000;*/
+    width: 100%;
+}
+
+ul.innertabs li {
+    float: left;
+    margin: 0px;
+    margin-right: 1px;
+    padding: 0;
+    height: 19px;       /*--Subtract 1px from the height of the unordered list--*/
+    line-height: 18px;  /*--Vertically aligns the text within the tab--*/
+    border: 1px solid #000;
+    /*border-left: none;*/
+    margin-bottom: -1px; /*--Pull the list item down 1px--*/
+    overflow: hidden;
+    position: relative;
+    background: #bbb;
+}
+
+ul.innertabs li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 1em;
+    padding: 1px 20px;
+    outline: none;
+}
+
+ul.innertabs li a:hover {
+    background: #ddd;
+}
+
+ul.innertabs li.active, ul.innertabs li.active a:hover { /*--Makes sure that the active tab does not listen to the hover properties--*/
+    background: #fff;
+    border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.tab_container {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+    border-top: none;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 99.8%;
+    background: #fff;
+}
+
+.tab_content {
+    margin: 0;
+    padding: 10px;
+    /*font-size: 1.2em;*/
+}
+
+/*container usulan*/
+.t_container {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;    
+    border: 1px solid #000;
+    /*border-top: none;*/
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 99.8%;
+    background: #fff;
+}
+
+.t_content {
+    margin: 0;
+    padding: 5px;
+}
+
+.loader {
+    height: inherit;
+    width: inherit;
+    background-image: url('../images/loading2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*TEST TAB*/

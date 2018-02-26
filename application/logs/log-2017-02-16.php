@@ -1,0 +1,43 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-02-16 00:00:44 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 533
+ERROR - 2017-02-16 00:14:07 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:27:48 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:29:32 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:30:31 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:31:07 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:33:09 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:33:41 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:35:33 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:35:57 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:40:06 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 538
+ERROR - 2017-02-16 00:41:13 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 540
+ERROR - 2017-02-16 00:42:26 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 544
+ERROR - 2017-02-16 00:44:39 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 546
+ERROR - 2017-02-16 00:49:31 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 575
+ERROR - 2017-02-16 00:51:44 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 575
+ERROR - 2017-02-16 00:52:39 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 575
+ERROR - 2017-02-16 00:53:01 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 575
+ERROR - 2017-02-16 00:53:15 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 575
+ERROR - 2017-02-16 00:56:10 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 575
+ERROR - 2017-02-16 01:01:50 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 576
+ERROR - 2017-02-16 01:06:48 --> 404 Page Not Found --> asset
+ERROR - 2017-02-16 01:07:08 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 578
+ERROR - 2017-02-16 01:08:35 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 578
+ERROR - 2017-02-16 01:18:42 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 581
+ERROR - 2017-02-16 01:25:12 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 582
+ERROR - 2017-02-16 01:31:30 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 587
+ERROR - 2017-02-16 01:37:22 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 587
+ERROR - 2017-02-16 01:43:47 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 600
+ERROR - 2017-02-16 01:47:49 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 600
+ERROR - 2017-02-16 01:51:21 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 600
+ERROR - 2017-02-16 01:57:18 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 600
+ERROR - 2017-02-16 02:06:34 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 600
+ERROR - 2017-02-16 02:08:14 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 600
+ERROR - 2017-02-16 02:20:01 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 629
+ERROR - 2017-02-16 02:22:57 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 629
+ERROR - 2017-02-16 02:28:05 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 629
+ERROR - 2017-02-16 02:30:51 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 629
+ERROR - 2017-02-16 02:32:38 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 629
+ERROR - 2017-02-16 10:16:25 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 629
+ERROR - 2017-02-16 10:53:07 --> Severity: Notice  --> Undefined variable: id_groups /Applications/MAMP/htdocs/sirenbangda/application/views/renstra/belanja_renstra/create.php 629

@@ -1,0 +1,134 @@
+@media all {
+	html, body {
+		font-family: 'Trebuchet MS',Helvetica, Tahoma, Arial, sans-serif;
+		font-size: 12px;
+	}
+
+
+	table {
+		font-family: 'Trebuchet MS',Helvetica, Tahoma, Arial, sans-serif;
+		font-size: 12px;
+	}
+
+	.ttd-name {
+		border-bottom: 1px solid #000;
+		padding-bottom: 2px;
+		margin-bottom: 2px;
+	}
+
+	.ttd-space {
+		height: 2.2cm;
+	}
+
+	.ttd-block {
+		vertical-align: bottom;
+	}
+
+	.ttd-form {
+		width: 230px;
+	}
+
+	.form-kwitansi-cetak {
+		width: 670px;
+		border-collapse: collapse;
+		border: 1px solid #000;
+	}
+
+	.honor-layout {
+		width: 28cm;
+	}
+
+	.form-honor-cetak {
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 1px solid #000;
+		margin-top: 20px;
+	}
+
+	.list td {
+		padding: 2px 5px;
+		height: 30px;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.list td.terima 	{ width: 110px; max-width: 110px;}
+	.list td.pph	 	{ width: 90px; max-width: 90px; }
+	.list td.subtotal	{ width: 110px; max-width: 110px; }
+	.list td.satuan		{ width: 90px; max-width: 90px; }
+	.list td.volume		{ width: 60px; max-width: 60px }
+
+	.list td.ttd {
+		width: 150px; max-width: 150px;
+		vertical-align: bottom;
+		text-align: center;
+	}
+
+	img.logo-unud {
+		float: left;
+	    height: 64px;
+	    width: 64px;
+	}
+
+	.logo-unud1 {
+		display: inline-block;
+	    height: 64px;
+	    width: 64px;
+	    background-image: url('../images/logo-unud.png');
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	}
+
+	.form-doc-cetak {
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 1px solid #000;
+	}
+
+	.portrait {
+		width: 20cm;
+	}
+
+	.landscape {
+		width: 28cm;
+	}
+
+	.txt-center 		{ text-align: center; 	}
+	.txt-bold 			{ font-weight: bold;	}
+	.txt-left			{ text-align: left; 	}
+	.txt-right			{ text-align: right;	}
+	.txt-fix			{ overflow: hidden;		}
+
+	.hide 				{ display: none; 		}
+	.show				{ display: block; 		}
+
+	.center 			{ margin: auto;}
+	.no-border			{ border: 0px; }	
+}
+
+
+@media print {
+	html, body {
+		font-family: 'Trebuchet MS','dejavu sans condensed', Helvetica, Tahoma, Arial, sans-serif;
+		font-size: 12px;
+	}
+
+	table {
+		font-family: 'Trebuchet MS','dejavu sans condensed', Helvetica, Tahoma, Arial, sans-serif;
+		font-size: 12px;
+	}
+
+	.list {
+		page-break-inside: auto;
+	}
+
+	.list thead {
+		display: table-header-group;
+	}
+
+	.list tr {
+		page-break-inside: avoid; page-break-after: auto;
+	}
+
+}

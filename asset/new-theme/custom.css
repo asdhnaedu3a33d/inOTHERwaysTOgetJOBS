@@ -1,0 +1,538 @@
+/* Scroll to top */
+#to-top{
+  display: block;
+  padding: 14px 33px;
+  position: fixed;
+  bottom: 0px;
+  right: 14px;
+  background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.8);
+  border: 1px solid #dedede;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  font-weight: bold;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+#to-top.cd-is-visible, #to-top.cd-fade-out, .no-touch #to-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+#to-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+#to-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.no-touch #to-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
+/* Box */
+article.module {
+  position: relative !important;
+  border-radius: 3px !important;
+  background: #ffffff !important;
+  border-top: 3px solid #d2d6de !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1) !important;
+
+  /* Default Color box-info */
+  border-top-color: #00c0ef !important;
+
+  /* Fix bug margin left if it changes */
+  margin-left: auto !important;
+}
+article.module header {
+  color: #444 !important;
+  display: block !important;
+  padding: 10px !important;
+  position: relative !important;
+  background: #ffffff !important;
+
+  /* Default with-border */
+  border-bottom: 1px solid #f4f4f4;
+}
+article.module header h3{
+  display: inline-block;
+  font-size: 18px !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+  background: #ffffff !important;
+  color: #444 !important;
+}
+article.module header h3:before {
+  content: "\f26c";
+  margin-right: 2px;
+  font-family: FontAwesome;
+}
+article.module .module_content{
+  width: 100%;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+  padding: 10px !important;
+  background: #ffffff !important;
+  color: #333;
+
+  /* Fix bug content which can unneeded scroll */
+  overflow: hidden !important;
+
+  /* Fix bug height */
+  height: auto !important;
+}
+article footer{
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+  border-top: 1px solid #f4f4f4 !important;
+  padding: 10px !important;
+  background-color: #fff !important;
+}
+.submit_link{
+  text-align: right !important;
+}
+header > h3{
+  padding: 0 !important;
+}
+
+article.module > .module_content > div:first-child:not([class]){
+  width: 100%;
+  margin-bottom: 15px;
+}
+article.module > .module_content > div:first-child:not([class]) > a,
+article.module > .module_content > div:first-child:not([class]) > input[type=button],
+article.module > .module_content > div:first-child:not([class]) > input[type=submit]{
+  display: inline-block !important;
+  float: right;
+}
+div.scroll{
+  overflow: auto;
+}
+div.module_content.scroll{
+  overflow: auto !important;
+}
+
+/* Menu */
+ul.treeview-menu li a span{
+  white-space: normal !important;
+}
+
+/* Facebox */
+#facebox{
+  top: 0 !important;
+  height: 100% !important;
+  padding: 15px;
+  overflow-y: auto;
+  position: fixed !important;
+}
+#facebox > .popup > .content-frame{
+  min-width: 600px !important;
+}
+@media (max-width: @screen-xs-max) {
+  #facebox > .popup > .content-frame{
+    min-width: 90% !important;
+  }
+}
+
+#facebox > .popup > .content-frame > .content{
+  min-height: 100px;
+}
+#facebox > .popup > .content-frame > .content > div > header{
+  margin-bottom: 15px;
+}
+#facebox > .popup > .content-frame > .content > div > header > h3{
+  margin: 0 !important;
+  padding: 5px !important;
+}
+#facebox > .popup > .content-frame > .content > div > header:after{
+  content:"";
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  height: 0.5em;
+  border-bottom: 1px solid #f4f4f4;
+}
+#facebox > .popup > .content-frame > .content > div > footer{
+  padding-top: 10px;
+}
+#facebox > .popup > .content-frame > .content > div > footer:before{
+  content:"";
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  height: 0.5em;
+  border-top: 1px solid #f4f4f4;
+  margin-top: -10px;
+}
+#facebox header h3:before {
+  content: "\f009";
+  font-family: FontAwesome;
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+@media (max-width:480px) {
+    article.module {
+        overflow-x: auto;
+        border-bottom: 0;
+    }
+
+    article.module .module_content{
+        min-width: 480px;
+    }
+
+    #facebox .popup{
+      overflow-x: auto;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    article.module {
+        overflow-x: auto;
+        border-bottom: 0;
+    }
+
+    article.module .module_content{
+        min-width: 800px;
+    }
+
+    #facebox .popup{
+      overflow-x: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    #facebox .popup{
+      overflow-x: auto;
+    }
+}
+
+/* Table */
+table:not(.table){
+  width: 100% !important;
+  max-width: 100%;
+  margin-bottom: 20px !important;
+
+  /* fix bug user agent resize font, dont know what happens*/
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+.module_content>table:not(.table), .module_content>form>table:not(.table){
+  margin-bottom: 0 !important;
+}
+
+table:not(.table)>tbody>tr>td, table:not(.table)>tbody>tr>th, table:not(.table)>tfoot>tr>td, table:not(.table)>tfoot>tr>th, table:not(.table)>thead>tr>td, table:not(.table)>thead>tr>th {
+    padding: 8px !important;
+    line-height: 1.42857143 !important;
+    vertical-align: top !important;
+    border-top: 1px solid #ddd !important;
+}
+
+table:not(.table)>tbody>tr>th, table:not(.table)>tfoot>tr>th, table:not(.table)>thead>tr>th {
+  text-align: center !important;
+}
+
+table:not(.table)>thead>tr>th, table:not(.table)>tbody>tr>th, table:not(.table)>tfoot>tr>th, table:not(.table)>thead>tr>td, table:not(.table)>tbody>tr>td, table:not(.table)>tfoot>tr>td {
+    border-top: 1px solid #f4f4f4 !important;
+}
+
+table.fcari>tbody>tr:nth-of-type(odd), table.table-display>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9 !important;
+}
+
+.table-common, .table-display{
+    border: 1px solid #f4f4f4;
+}
+
+.table-common>thead>tr>th, .table-common>tbody>tr>th, .table-common>tfoot>tr>th, .table-common>thead>tr>td, .table-common>tbody>tr>td, .table-common>tfoot>tr>td ,
+.table-display>thead>tr>th, .table-display>tbody>tr>th, .table-display>tfoot>tr>th, .table-display>thead>tr>td, .table-display>tbody>tr>td, .table-display>tfoot>tr>td
+{
+    border: 1px solid #f4f4f4 !important;
+}
+
+/* For table which doens't has any class / default table */
+table:not(.table):not(.table-common):not(.table-display):not(.fcari){
+    border: 1px solid #f4f4f4;
+}
+table:not(.table):not(.table-common):not(.table-display):not(.fcari)>thead>tr>th, table:not(.table):not(.table-common):not(.table-display):not(.fcari)>tbody>tr>th, table:not(.table):not(.table-common):not(.table-display):not(.fcari)>tfoot>tr>th, table:not(.table):not(.table-common):not(.table-display):not(.fcari)>thead>tr>td, table:not(.table):not(.table-common):not(.table-display):not(.fcari)>tbody>tr>td, table:not(.table):not(.table-common):not(.table-display):not(.fcari)>tfoot>tr>td
+{
+    border: 1px solid #f4f4f4 !important;
+}
+
+/* form */
+form{
+  margin: 0;
+}
+
+input[type=button]:not(.form-control),
+input[type=submit]:not(.form-control),
+button:not(.btn){
+  display: inline-block !important;
+  padding: 6px 12px !important;
+  margin-bottom: 0 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.42857143 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  -ms-touch-action: manipulation !important;
+  touch-action: manipulation !important;
+  cursor: pointer !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  background-image: none !important;
+
+  border: 1px solid transparent !important;
+
+  background-color: #f4f4f4 !important;
+  color: #444 !important;
+  border-color: #ddd !important;
+
+  border-radius: 0 !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border-width: 1px !important;
+
+  /* btn-sm */
+  /*padding: 5px 10px !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;*/
+}
+
+input[type=button]:not(.form-control):hover, input[type=submit]:not(.form-control):active, button:not(.btn):hover {
+  color: #333 !important;
+  border-color: #adadad !important;
+
+  background-color: #e7e7e7 !important;
+
+  text-decoration: none !important;
+}
+
+input:not(.form-control):not([type=file]):not([type=button]):not([type=submit]):not([type=checkbox]):not([type=radio]):not([type=reset]), select:not(.form-control), textarea:not(.form-control){
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  /* AdminLTE */
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #d2d6de;
+
+  /* form-group*/
+  margin-bottom: 15px;
+}
+
+input:not(.form-control):not([type=file]):not([type=button]):not([type=submit]):not([type=checkbox]):not([type=radio]):not([type=reset]):not(aria-controls=groceryCrudTable), select:not(.form-control){
+  width: 100% !important;
+}
+
+input:not(.form-control):not([type=file]):not([type=button]):not([type=submit]):not([type=checkbox]):not([type=radio]):not([type=reset]):focus, select:not(.form-control):focus, textarea:not(.form-control):focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+
+    border-color: #3c8dbc;
+    box-shadow: none;
+}
+
+td > input:not(.form-control):not([type=file]):not([type=button]):not([type=submit]):not([type=checkbox]):not([type=radio]):not([type=reset]), td > select:not(.form-control), td > textarea:not(.form-control){
+  margin-bottom: 0;
+}
+
+textarea:not(.form-control) {
+    height: auto;
+    display: inline;
+}
+
+textarea {
+  resize:vertical;
+  height: auto;
+}
+
+.chosen-container{
+  width: 100% !important;
+  box-shadow: none !important;
+  font-size: 14px !important;;
+}
+.chosen-container a{
+  border-radius: 0 !important;
+  height: 34 !important;
+  padding: 6px 12px !important;
+  font-size: 14px !important;
+  line-height: inherit !important;
+  background-color: #fff !important;
+  background: #fff !important;
+  line-height: 1.42857143 !important;
+
+  box-shadow: none !important;
+  border: 1px solid #d2d6de !important;
+}
+.chosen-container a div{
+  padding-top: 6px !important;;
+}
+.chosen-container .chosen-drop{
+  border: 1px solid #d2d6de !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.chosen-container.chosen-with-drop a, .chosen-container.chosen-with-drop .chosen-drop{
+  outline: 0 !important;
+  border-color: #3c8dbc !important;
+  box-shadow: none !important;
+}
+.chosen-container .chosen-search input{
+  margin: 0 !important;
+}
+.chosen-container .chosen-results li{
+  padding: 6px 12px !important;
+  line-height: inherit !important;
+}
+.chosen-container .chosen-results li.result-selected{
+  background-color: #ddd !important;
+}
+.chosen-container .chosen-results li.highlighted{
+  background: #3c8dbc !important;
+  color: white !important;
+}
+.chosen-container .chosen-results {
+  max-height: 160px !important;
+}
+input[type=radio]:not([class]), input[type=checkbox]:not([class]){
+  margin-right: 5px;
+}
+
+
+/* Icon Sprites CSS */
+a[class^='icon-'], a[class*=' icon-'], a[class^='icon2-'], a[class*=' icon2-'] {
+  cursor: pointer !important;
+  margin: 3px 2px 3px;
+}
+article.module > header > h3 > a[class^='icon-'], article.module > header > h3 > a[class*=' icon-'], article.module > header > h3 > a[class^='icon2-'], article.module > header > h3 > a[class*=' icon2-'] {
+  margin-top: 5px;
+}
+
+/* File Upload */
+div.parent > #frame > #box > .child1-box{
+  border-radius: 0 !important;
+  border-color: #d2d6de !important;
+  display: inline-block !important;
+  float: none !important;
+}
+div.parent > #frame > #box > .child2-box{
+  margin-top: 6px !important;
+  margin-left: 4px !important;
+  right: auto !important;
+  float: none !important;
+  top: auto !important;
+  display: inline-block !important;
+  position: absolute !important;
+}
+
+/* autocomplete element */
+.autocomplete_element{
+  position: relative !important;
+  width: 100% !important;
+}
+.autocomplete_element .ui-autocomplete{
+  top: auto !important;
+  width: 100% !important;
+}
+
+/* Custom for grocery */
+#groceryCrudTable_wrapper div.dataTables_length select {
+    width: 75px !important;
+    display: inline-block !important;
+    margin: 0 !important;
+}
+#groceryCrudTable_wrapper div.dataTables_filter input {
+    margin-left: 0.5em !important;
+    display: inline-block !important;
+    width: 109px !important;
+    margin: 0 !important;
+}
+#groceryCrudTable_wrapper div.dataTables_paginate {
+    margin: 0 !important;
+    margin-top: 2px !important;
+    white-space: nowrap !important;
+    text-align: right !important;
+}
+#groceryCrudTable_wrapper div.dataTables_paginate .pagination{
+    margin: 0 !important;
+}
+#groceryCrudTable_wrapper div.dataTables_paginate .pagination li{
+  padding: 0 !important;
+  border: 0 !important;
+}
+#groceryCrudTable_wrapper div.dataTables_paginate .pagination li a{
+    float: none !important;
+    padding: 6px 10px;
+    margin-top: 2px;
+}
+#groceryCrudTable_wrapper div.datatables > .form-content.form-div > form#crudForm > div > div.form-field-box > .form-display-as-box{
+    float: none !important;
+}
+#groceryCrudTable_wrapper div.datatables > .form-content.form-div > form#crudForm > div > div.form-field-box > .form-input-box{
+    float: none !important;
+}
+#groceryCrudTable_wrapper div.datatables > .form-content.form-div > form#crudForm > div > div.form-field-box > .form-input-box > select{
+    width: 100% !important;
+}
+#groceryCrudTable_wrapper div.datatables > .form-content.form-div > form#crudForm > div.buttons-box{
+    padding-bottom: 10px !important;
+}
+#groceryCrudTable_wrapper div.datatables > .form-content.form-div > form#crudForm > div > div.form-field-box > .form-input-box .chzn-drop{
+    width: 100% !important;
+}
+#groceryCrudTable_wrapper div.datatables > .form-content.form-div > form#crudForm > div > div.form-field-box > .form-input-box .chzn-drop .chzn-search input{
+    width: 100% !important;
+    margin-bottom: 0px;
+}
+#groceryCrudTable_wrapper{
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+}
+#groceryCrudTable_info{
+  width: auto;
+  position: absolute;
+}
+#groceryCrudTable_paginate{
+  width: 100% !important;
+}
+#crudForm .form-input-box, #crudForm select, #crudForm .chzn-drop, #crudForm .chzn-search input{
+  width: 100% !important;
+}
+#crudForm input, #crudForm select, #crudForm textarea{
+  margin-bottom: 0px;
+}
+#crudForm .form-display-as-box{
+  padding-bottom: 3px;
+}

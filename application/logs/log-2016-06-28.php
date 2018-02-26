@@ -1,0 +1,41 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-06-28 01:41:11 --> 404 Page Not Found --> asset
+ERROR - 2016-06-28 01:45:54 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/controllers/evaluasi_renja.php 98
+ERROR - 2016-06-28 01:45:54 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/controllers/evaluasi_renja.php 100
+ERROR - 2016-06-28 01:45:54 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/controllers/evaluasi_renja.php 110
+ERROR - 2016-06-28 01:45:55 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 185
+ERROR - 2016-06-28 01:45:55 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 205
+ERROR - 2016-06-28 02:10:03 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 185
+ERROR - 2016-06-28 02:10:03 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 205
+ERROR - 2016-06-28 02:14:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 185
+ERROR - 2016-06-28 02:14:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 205
+ERROR - 2016-06-28 02:14:41 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 185
+ERROR - 2016-06-28 02:14:41 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 205
+ERROR - 2016-06-28 02:18:56 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 184
+ERROR - 2016-06-28 02:18:56 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 198
+ERROR - 2016-06-28 02:20:48 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:20:48 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 02:21:32 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:21:32 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 02:22:26 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:22:26 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 02:23:44 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:23:44 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 02:25:13 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:25:13 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 02:29:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:29:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 02:51:47 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:51:47 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 02:51:54 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 02:51:54 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 03:02:09 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 03:02:09 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 03:25:31 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/controllers/evaluasi_renja.php 98
+ERROR - 2016-06-28 03:25:31 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/controllers/evaluasi_renja.php 100
+ERROR - 2016-06-28 03:25:31 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/controllers/evaluasi_renja.php 110
+ERROR - 2016-06-28 03:25:32 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 03:25:32 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210
+ERROR - 2016-06-28 03:25:56 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 202
+ERROR - 2016-06-28 03:25:56 --> Severity: Notice  --> Trying to get property of non-object /var/www/sirenbangda/application/views/evaluasi/renja/cru_evaluasi_renja.php 210

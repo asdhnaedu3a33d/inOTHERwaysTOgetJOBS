@@ -1,0 +1,115 @@
+                    <?php if($this->session->userdata('t_anggaran_aktif')==$row->tahun_anggaran){echo "selected";} ?> 
+
+
+
+
+                    $('#cmb_ta').change(function() {
+          $.blockUI({
+              message: 'Perubahan Tahun Renja, mohon ditunggu ...',
+              css: window._css,
+              overlayCSS: window._ovcss
+          });
+
+          $.ajax({
+              type: "POST",
+              url : "<?php echo site_url('setting/change_ta')?>",
+              data: {ta:$('#cmb_ta').val()},
+              success: function(msg){
+
+                  if(msg =='success'){
+                      window.location = "<?php echo site_url('home')?>";
+                  }else{
+                      console.log('System error....');
+                      alert('System error....');
+                  }
+                  //console.log($('#cmb_ta').val());
+
+              }
+          });
+      });
+
+
+
+           <option <?php if($this->session->userdata('t_anggaran_aktif')==$row->tahun_anggaran){echo "selected";} ?> value='<?php echo $row->tahun_anggaran ?>'><?php echo $row->tahun_anggaran; ?></option>
+
+
+            <?= $this->session->userdata('t_anggaran_aktif') ?>
+
+
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i style="font-size: 18px;" class="fa fa-calendar"></i>2016
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">
+                  <select id='cmb_ta' class="form-control">
+                    <?php
+                   // foreach ($t_anggaran as $row) {
+                    ?>
+                      <option>2015</option>
+                      <option>2016</option>
+                    <?php
+                 //   }
+                    ?>
+                  </select>
+                </li>
+              </ul>
+
+
+
+              <?php
+                                if(!empty($id_sumberdana)){
+                                  if($id_sumberdana==1){
+                                      ?>
+                        <option value="1" <?php if($id_jenishibah == 1){?> selected="selected" <?php } ?>>Uang</option>
+                                        <option value="2" <?php if($id_jenishibah == 2){?> selected="selected" <?php } ?>>Barang</option>
+                                        <option value="3" <?php if($id_jenishibah == 3){?> selected="selected" <?php } ?>>Jasa</option>
+                                      <?php
+                                    }else{
+                                      ?>
+                        <option value="1" <?php if($id_jenishibah == 1){?> selected="selected" <?php } ?>>Uang</option>
+                                        <option value="2" <?php if($id_jenishibah == 2){?> selected="selected" <?php } ?>>Barang</option>
+                                        <?php
+                                    }
+
+                                  }
+                                } 
+                              ?>
+
+
+                              if(@$pengusul==3){
+    ?>
+      $("#nama_pengusul").show();
+    <?php
+    }
+
+
+      
+
+               <?php
+                                if(!empty($id_sumberdana)){
+                                  if($id_sumberdana=='1'){
+                                ?>
+                                    <option value="1" <?php if($id_jenishibah == 1){?> selected <?php } ?> >Uang</option>
+                              <option value="2" <?php if($id_jenishibah == 2){?> selected <?php } ?> >Barang</option>
+                              <option value="3" <?php if($id_jenishibah == 3){?> selected <?php } ?> >Jasa</option>
+                        <?php
+                                  }else{
+                                ?>
+                                    <option value="1" <?php if($id_jenishibah == 1){?> selected <?php } ?> >Uang</option>
+                              <option value="2" <?php if($id_jenishibah == 2){?> selected <?php } ?> >Barang</option>
+                        
+                                <?    
+                                  }
+                                }
+                              ?>
+
+<?php if(!empty($id_groups)){echo $id_groups}; ?>
+
+
+
+<?php   
+                        }else{
+                      ?>
+                          <option value="1" >Uang</option>
+                                  <option value="2" >Barang</option>
+                                  <option value="3" >Jasa</option>
