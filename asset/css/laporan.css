@@ -2,11 +2,13 @@
     overflow: hidden;
     z-index: 3;
 }
+
 #sidebar .list-group {
     min-width: 400px;
     background-color: white;
     min-height: 100vh;
 }
+
 #sidebar i {
     margin-right: 6px;
 }
@@ -38,6 +40,7 @@
 #sidebar .list-group .list-group-item[aria-expanded="true"] {
     background-color: #222;
 }
+
 #sidebar .list-group .list-group-item[aria-expanded="true"]::after {
     content: " \f0da";
     font-family: FontAwesome;
@@ -48,7 +51,7 @@
 
 /* level 1*/
 #sidebar .list-group .collapse .list-group-item,
-#sidebar .list-group .collapsing .list-group-item  {
+#sidebar .list-group .collapsing .list-group-item {
     padding-left: 20px;
 }
 
@@ -63,7 +66,7 @@
     padding-left: 40px;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     #sidebar {
         min-width: 35px;
         max-width: 40px;
@@ -78,12 +81,15 @@
         transform: translateX(0);
     }
 
-    #sidebar::-webkit-scrollbar{ width: 0px; }
+    #sidebar::-webkit-scrollbar {
+        width: 0px;
+    }
 
     #sidebar, #sidebar .list-group {
         min-width: 35px;
         overflow: visible;
     }
+
     /* overlay sub levels on small screens */
     #sidebar .list-group .collapse.show, #sidebar .list-group .collapsing {
         position: relative;
@@ -91,20 +97,23 @@
         width: 190px;
         top: 0;
     }
+
     #sidebar .list-group > .list-group-item {
         text-align: center;
         padding: .75rem .5rem;
     }
+
     /* hide caret icons of top level when collapsed */
     #sidebar .list-group > .list-group-item[aria-expanded="true"]::after,
     #sidebar .list-group > .list-group-item[aria-expanded="false"]::after {
-        display:none;
+        display: none;
     }
 }
 
 .collapse.show {
     visibility: visible;
 }
+
 .collapsing {
     visibility: visible;
     height: 0;
@@ -113,6 +122,7 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+
 .collapsing.width {
     -webkit-transition-property: width, visibility;
     transition-property: width, visibility;
@@ -131,8 +141,9 @@
     position: absolute;
     left: 0;
     top: 0;
-    pointer-events:none;
+    pointer-events: none;
 }
+
 .chartAreaWrapper {
     overflow-x: scroll;
     position: relative;
@@ -142,4 +153,43 @@
 .chartAreaWrapper2 {
     position: relative;
     height: 100%;
+}
+
+.canvas-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 365px;
+    position: relative;
+}
+
+.canvas-con-inner {
+    height: 100%;
+}
+
+.canvas-con-inner, .legend-con {
+    display: inline-block;
+}
+
+.legend-con {
+    display: inline-block;
+}
+
+.legend-con ul {
+    list-style: none;
+}
+
+.legend-con li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+
+.legend-con li span {
+    display: inline-block;
+}
+
+.legend-con li span.chart-legend {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
 }

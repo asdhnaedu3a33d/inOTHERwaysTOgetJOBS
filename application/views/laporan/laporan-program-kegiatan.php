@@ -1,4 +1,4 @@
-<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-1 px-4">
+<main class="col-md-9 float-left mx-auto main w-100" id="mainSection">
     <div class="p-2" style="border-bottom:3px solid black;">
         <div class="input-group mb-1">
             <select class="custom-select mr-2 ml-2" id="inputGroupSelect01">
@@ -25,87 +25,95 @@
         </div>
     </div>
 
-    <div class="row text-center">
+    <!--    <div class="row text-center">-->
+    <!--        <div class="col-md-4 mx-auto">-->
+    <!--            <p>Program</p>-->
+    <!--            <canvas id="program" width="100px" height="100px"></canvas>-->
+    <!--        </div>-->
+    <!---->
+    <!--        <div class="col-md-4 mx-auto">-->
+    <!--            <p>Kegiatan</p>-->
+    <!--            <canvas id="kegiatan" width="100px" height="100px"></canvas>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <div class="row text-center">-->
         <div class="col-md-3 mx-auto">
-            <p>Program</p>
-            <canvas id="program" width="100px" height="100px"></canvas>
-        </div>
-        <div class="col-md-3 mx-auto">
-            <p>Ekstra</p>
-            <canvas id="ekstra" width="100px" height="100px"></canvas>
-        </div>
-        <div class="col-md-3 mx-auto">
-            <p>Kegiatan</p>
-            <canvas id="kegiatan" width="100px" height="100px"></canvas>
+            <div class="canvas-con">
+                <div class="canvas-con-inner">
+                    <canvas id="mychart" height="250px"></canvas>
+                </div>
+                <div id="my-legend-con" class="legend-con"></div>
+            </div>
         </div>
     </div>
 </main>
 
 <script>
-    $(document).ready(function(){
-        Chart.defaults.global.defaultFontFamily = "Lato";
-        Chart.defaults.global.defaultFontSize = 18;
+    var chartData = [{"visitor": 39, "visit": 1}, {"visitor": 18, "visit": 2}, {
+        "visitor": 9,
+        "visit": 3
+    }, {"visitor": 5, "visit": 4}, {"visitor": 6, "visit": 5}, {"visitor": 5, "visit": 6}]
 
-        var program = document.getElementById("program");
-        var ekstra = document.getElementById("ekstra");
-        var kegiatan = document.getElementById("kegiatan");
+    var visitorData = [],
+        visitData = [];
 
-        Chart.defaults.global.defaultFontFamily = "Lato";
-        Chart.defaults.global.defaultFontSize = 12;
+    for (var i = 0; i < chartData.length; i++) {
+        visitorData.push(chartData[i]['visitor'])
+        visitData.push(chartData[i]['visit'])
+    }
 
-        var programChart = new Chart(program, {
-            type: 'doughnut',
-            data: {
-                labels: [
-                    "RKPD",
-                    "APBD",
-                ],
-                datasets: [
-                    {
-                        data: [133.3, 86.2],
-                        backgroundColor: [
-                            "blue",
-                            "orange",
-                        ]
-                    }]
+    var myChart = new Chart(document.getElementById('mychart'), {
+        type: 'doughnut',
+        animation: {
+            animateScale: true
+        },
+        data: {
+            labels: visitData,
+            datasets: [{
+                label: 'Visitor',
+                data: visitorData,
+                backgroundColor: [
+                    "#a2d6c4",
+                    "#36A2EB",
+                    "#3e8787",
+                    "#579aac",
+                    "#7dcfe8",
+                    "#b3dfe7",
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            legend: false,
+            legendCallback: function (chart) {
+                var legendHtml = [];
+                legendHtml.push('<ul>');
+                var item = chart.data.datasets[0];
+                for (var i = 0; i < item.data.length; i++) {
+                    legendHtml.push('<li>');
+                    legendHtml.push('<span class="chart-legend" style="background-color:' + item.backgroundColor[i] + '"></span>');
+                    legendHtml.push('<span class="chart-legend-label-text">' + item.data[i] + ' person - ' + chart.data.labels[i] + ' times</span>');
+                    legendHtml.push('</li>');
+                }
+
+                legendHtml.push('</ul>');
+                return legendHtml.join("");
             },
-            responsive: true
-        });
-        var ekstraChart = new Chart(ekstra, {
-            type: 'doughnut',
-            data: {
-                labels: [
-                    "RKPD",
-                    "APBD",
-                ],
-                datasets: [
-                    {
-                        data: [105.3, 178.2],
-                        backgroundColor: [
-                            "green",
-                            "blue",
-                        ]
-                    }]
+            tooltips: {
+                enabled: true,
+                mode: 'label',
+                callbacks: {
+                    label: function (tooltipItem, data) {
+                        var indice = tooltipItem.index;
+                        return data.datasets[0].data[indice] + " person visited " + data.labels[indice] + ' times';
+                    }
+                }
             },
-            responsive: true
-        });
-        var kegiatanChart = new Chart(kegiatan, {
-            type: 'doughnut',
-            data: {
-                labels: [
-                    "RKPD",
-                    "APBD",
-                ],
-                datasets: [
-                    {
-                        data: [233.3, 386.2],
-                        backgroundColor: [
-                            "green",
-                            "red",
-                        ]
-                    }]
-            },
-            responsive: true
-        });
+        }
     });
+
+    $('#my-legend-con').html(myChart.generateLegend());
+
+    console.log(document.getElementById('my-legend-con'));
+
 </script>

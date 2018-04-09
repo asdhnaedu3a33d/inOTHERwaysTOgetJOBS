@@ -40,17 +40,59 @@ ORDER BY persen DESC";
         return false;
     }
 
-    public function test2()
+    public function getRkpdKegiatan()
     {
-        $query = "SELECT nama_koor AS nama, IF(vw.jumlah IS NOT NULL, vw.jumlah, 0) AS jumlah FROM m_bidkoordinasi LEFT JOIN (SELECT m_skpd.id_bidkoor, COUNT(*) AS jumlah FROM t_renstra_prog_keg INNER JOIN t_renstra ON t_renstra_prog_keg.id_renstra=t_renstra.id INNER JOIN m_skpd ON m_skpd.id_skpd=t_renstra.id_skpd INNER JOIN m_bidkoordinasi ON m_skpd.id_bidkoor=m_bidkoordinasi.id_bidkoor WHERE is_prog_or_keg=1 AND id_status=7 GROUP BY m_skpd.id_bidkoor) AS vw ON m_bidkoordinasi.id_bidkoor=vw.id_bidkoor";
-        $result = $this->db->query($query);
+        $sql = "SELECT t_renja_prog_keg.kd_urusan,m_urusan.Nm_Urusan,COUNT(t_renja_prog_keg.kd_urusan) jumlah_urusan FROM t_renja_prog_keg
+INNER JOIN m_urusan
+ON t_renja_prog_keg.kd_urusan = m_urusan.Kd_Urusan
+WHERE tahun = 2018  AND is_prog_or_keg = 2
+AND id IN ( SELECT id_prog_keg FROM t_renja_indikator_prog_keg
+     WHERE is_prog_or_keg=2 AND id_prog_keg = t_renja_prog_keg.id
+     AND (target > 0 OR target_thndpn > 0))
+GROUP BY `t_renja_prog_keg`. kd_urusan,m_urusan.Nm_Urusan
+HAVING (SUM(t_renja_prog_keg.nominal) > 0 OR SUM(t_renja_prog_keg.nominal_thndpn) > 0)
+";
 
-        return $result->result();
+        $query = $this->db->query($sql);
+
+        if ($query->num_rows() >= 0)
+        {
+            foreach ($query->result() as $row)
+            {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
     }
 
-    public function donat1()
+    public function getRkpdProgram()
     {
-        $sql = "SELECT m_urusan.kd_urusan,m_urusan.Nm_Urusan,COUNT(tx_dpa_prog_keg.kd_urusan) FROM tx_dpa_prog_keg
+        $sql = "SELECT t_renja_prog_keg.kd_urusan,m_urusan.Nm_Urusan,COUNT(t_renja_prog_keg.kd_urusan) jumlah_urusan FROM t_renja_prog_keg
+INNER JOIN m_urusan
+ON t_renja_prog_keg.kd_urusan = m_urusan.Kd_Urusan
+WHERE tahun = 2018  AND is_prog_or_keg = 1
+AND id IN ( SELECT id_prog_keg FROM t_renja_indikator_prog_keg
+     WHERE is_prog_or_keg=1 AND id_prog_keg = t_renja_prog_keg.id
+     AND (target > 0 OR target_thndpn > 0))
+GROUP BY `t_renja_prog_keg`. kd_urusan,m_urusan.Nm_Urusan";
+        $query = $this->db->query($sql);
+
+        if ($query->num_rows() >= 0)
+        {
+            foreach ($query->result() as $row)
+            {
+                $data[] = $row;
+            }
+
+            return $data;
+        }
+        return false;
+    }
+
+    public function getApbdKegiatan()
+    {
+        $sql = "SELECT m_urusan.kd_urusan,m_urusan.Nm_Urusan,COUNT(tx_dpa_prog_keg.kd_urusan) jumlah_urusan FROM tx_dpa_prog_keg
 INNER JOIN m_urusan
 ON tx_dpa_prog_keg.kd_urusan = m_urusan.Kd_Urusan
 WHERE tahun = 2018  AND is_prog_or_keg = 2
@@ -66,6 +108,39 @@ HAVING ((SUM(tx_dpa_prog_keg.nominal_1) + SUM(tx_dpa_prog_keg.nominal_2)+ SUM(tx
 
         $query = $this->db->query($sql);
 
-        return $query->result();
+        if ($query->num_rows() >= 0)
+        {
+            foreach ($query->result() as $row)
+            {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+    }
+
+    public function getApbdProgram()
+    {
+        $sql = "SELECT m_urusan.kd_urusan,m_urusan.Nm_Urusan,COUNT(tx_dpa_prog_keg.kd_urusan) jumlah_urusan FROM tx_dpa_prog_keg
+INNER JOIN m_urusan
+ON tx_dpa_prog_keg.kd_urusan = m_urusan.Kd_Urusan
+WHERE tahun = 2018  AND is_prog_or_keg = 1
+AND
+      id IN ( SELECT id_prog_keg FROM tx_dpa_indikator_prog_keg
+     WHERE is_prog_or_keg=1 AND id_prog_keg = tx_dpa_prog_keg.id
+     AND target > 0)
+GROUP BY `tx_dpa_prog_keg`. kd_urusan,m_urusan.Nm_Urusan";
+
+        $query = $this->db->query($sql);
+
+        if ($query->num_rows() >= 0)
+        {
+            foreach ($query->result() as $row)
+            {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
     }
 }

@@ -96,7 +96,7 @@
     }
     var GetChartData = function () {
         $.ajax({
-            url: "http://103.29.196.246/sirenbangda/2018-dev/laporan/test",
+            url: "http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi",
             method: 'GET',
             dataType: 'json',
             success: function (json) {
