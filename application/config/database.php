@@ -49,10 +49,10 @@ $active_group = 'default';
 // $active_group = 'production';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'sirenbangda_db_sirenbangda_ng_new';
+$db['default']['hostname'] = '103.29.196.246';
+$db['default']['username'] = 'sirenbangda';
+$db['default']['password'] = 's1r3nb4ngd4';
+$db['default']['database'] = 'sirenbangda_db_sirenbangda_ng';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

@@ -7,13 +7,8 @@
     <link rel="stylesheet" href="<?php echo base_url().'asset/css/'; ?>font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo base_url().'asset/css/'; ?>bootstrap.css">
     <link rel="stylesheet" href="<?php echo base_url().'asset/css/'; ?>laporan.css">
-
 </head>
 <body>
-<?php
-// dynamic content loaded here
-echo $contents;
-?>
 <script src="<?php echo base_url().'asset/js/'; ?>jquery.min.js"></script>
 <script src="<?php echo base_url().'asset/js/'; ?>popper.min.js"></script>
 <script src="<?php echo base_url().'asset/js/'; ?>bootstrap.min.js"></script>
@@ -27,57 +22,79 @@ echo $contents;
     }
     feather.replace()
 </script>
+<nav style="background-color: #00BA8B;" class="navbar navbar-dark sticky-top flex-md-nowrap p-2">
+    <div class="container">
+        <a style="transition:.5s; font-family:'Droid Sans', Helvetica, Arial, sans-serif; padding-top:10; padding-bottom:0;"
+           class="navbar-brand" href="<?php echo site_url(); ?>">
+            <img style="margin-top:-10px; margin-right:-3px;" height="35" width="35"
+                 src="<?php echo site_url('asset/images/S_4_sirenbangda.png'); ?>"><font size="5">I</font>RENBANGDA
+            <i style="color: white; font-size: 10px;">Sistem Informasi Perencananaan Pembangunan Daerah</i>
+        </a>
+        <div class="pull-right">
 
-<!-- Graphs -->
-<script>
-    $(document).ready(function () {
-        var densityCanvas = document.getElementById("densityChart");
+        </div>
+        <!--        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">SIRENBANGDA</a>-->
+        <ul class="navbar-nav px-3 ml-auto">
+            <li class="nav-item text-nowrap">
+                <a class="text-white" href="<?php echo site_url(); ?>">
+                    <font class="brand">PEMKAB. KLUNGKUNG</font><img
+                            src="<?php echo site_url('asset/themes/modify-style/images/template/klk.png'); ?>"
+                            height="40" width="40" alt="Klungkung"></a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-        Chart.defaults.global.defaultFontFamily = "Lato";
-        Chart.defaults.global.defaultFontSize = 18;
-
-        var densityData = {
-            label: 'Density of Planet (kg/m3)',
-            data: [5427, 5243, 5514, 3933, 1326, 687, 1271, 1638],
-            backgroundColor: 'rgba(0, 99, 132, 0.6)',
-            borderWidth: 0,
-            yAxisID: "y-axis-density"
-        };
-
-        var gravityData = {
-            label: 'Gravity of Planet (m/s2)',
-            data: [3.7, 8.9, 9.8, 3.7, 23.1, 9.0, 8.7, 11.0],
-            backgroundColor: 'rgba(99, 132, 0, 0.6)',
-            borderWidth: 0,
-            yAxisID: "y-axis-gravity"
-        };
-
-        var planetData = {
-            labels: ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
-            datasets: [densityData, gravityData]
-        };
-
-        var chartOptions = {
-            scales: {
-                xAxes: [{
-                    barPercentage: 1,
-                    categoryPercentage: 0.6
-                }],
-                yAxes: [{
-                    id: "y-axis-density"
-                }, {
-                    id: "y-axis-gravity"
-                }]
-            }
-        };
-
-        var barChart = new Chart(densityCanvas, {
-            type: 'bar',
-            responsive: true,
-            data: planetData,
-            options: chartOptions
-        });
-    });
-</script>
+<nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <span class="mr-3" data-target="#sidebar" data-toggle="collapse" onclick="toggleMain()"><i
+                        class="fa fa-gear fa-2x py-3"></i></span>
+            <ul class="navbar-nav my-topnav ml-5">
+                <li class="nav-item text-center">
+                    <a class="nav-link pt-2 pl-3 pr-3 active" href="#"> <i class="fa fa-home"></i><br>
+                        Beranda <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link pt-2 pl-3 pr-3" href="#"> <i class="fa fa-address-card-o"></i>
+                        <br>Some-text</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link pt-2 pl-3 pr-3" href="#"> <i class="fa fa-automobile"></i>
+                        <br>Menu-pintas</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link pt-2 pl-3 pr-3" href="#"><i class="fa fa-sign-in"></i>
+                        <br>Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row d-flex d-md-block flex-nowrap wrapper">
+        <div class="col-md-3 float-left col-1 pl-0 pr-0 collapse width show" id="sidebar">
+            <div class="list-group border-0 card text-center text-md-left">
+                <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i
+                            class="fa fa-calendar"></i> <span class="d-none d-md-inline">Jumlah Program Kegiatan</span></a>
+                <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i
+                            class="fa fa-calendar"></i> <span
+                            class="d-none d-md-inline">Kinerja Fisik Perangkat Daerah</span></a>
+                <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i
+                            class="fa fa-calendar"></i> <span
+                            class="d-none d-md-inline">Serapan Anggaran Perangkat Daerah</span></a>
+                <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i
+                            class="fa fa-calendar"></i> <span class="d-none d-md-inline">Peforma Perangkat Daerah</span></a>
+                <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i
+                            class="fa fa-calendar"></i> <span
+                            class="d-none d-md-inline">Fisik VS Keuangan Perangkat Daerah</span></a>
+            </div>
+        </div>
+        <?php
+        // dynamic content loaded here
+        echo $contents;
+        ?>
+    </div>
+</div>
 </body>
 </html>
