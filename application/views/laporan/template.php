@@ -12,6 +12,7 @@
 <script src="<?php echo base_url().'asset/js/'; ?>jquery.min.js"></script>
 <script src="<?php echo base_url().'asset/js/'; ?>popper.min.js"></script>
 <script src="<?php echo base_url().'asset/js/'; ?>bootstrap.min.js"></script>
+<script src="<?php echo base_url().'asset/js/'; ?>jquery.twbsPagination.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url().'asset/js/'; ?>Chart.bundle.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url().'asset/js/'; ?>Chart.min.js"></script>
 <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>

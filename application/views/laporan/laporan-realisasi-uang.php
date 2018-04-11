@@ -38,40 +38,30 @@
     <div class="chartWrapper">
         <div class="chartAreaWrapper">
             <div class="chartAreaWrapper2">
-                <canvas id="densityChart" height="700px"></canvas>
+                <canvas id="densityChart" height="500px"></canvas>
             </div>
         </div>
-        <canvas id="myChartAxis" height="300" width="0"></canvas>
     </div>
+    <ul id="pagination-demo" class="pagination-centered justify-content-center"></ul>
+
 </main>
 
 <!-- Graphs -->
 <script>
-    //https://github.com/chartjs/Chart.js/issues/2958#issuecomment-261949718
-
     var chartData = {};
-
     var myLiveChart = null;
+    var labels = [];
+    var dataAnggaran = [];
 
     function initializeChart() {
         var densityCanvas = document.getElementById("densityChart").getContext("2d");
 
         Chart.defaults.global.defaultFontFamily = "Lato";
-        Chart.defaults.global.defaultFontSize = 12;
+        Chart.defaults.global.defaultFontSize = 16;
 
         var chartOptions = {
             responsive: true,
             maintainAspectRatio: false,
-            animation: {
-                onComplete: function (animation) {
-                    var sourceCanvas = myLiveChart.chart.canvas;
-                    var copyWidth = myLiveChart.scales['y-axis-0'].width - 10;
-                    var copyHeight = myLiveChart.scales['y-axis-0'].height + myLiveChart.scales['y-axis-0'].top + 10;
-                    var targetCtx = document.getElementById("myChartAxis").getContext("2d");
-                    targetCtx.canvas.width = copyWidth;
-                    targetCtx.drawImage(sourceCanvas, 0, 0, copyWidth, copyHeight, 0, 0, copyWidth, copyHeight);
-                }
-            },
             scales: {
                 xAxes: [{
                     barPercentage: 1,
@@ -80,43 +70,74 @@
                         autoSkip: false
                     }
                 }]
-//                yAxes: [{
-//                    id: "y-axis-0"
-//                }, {
-//                    id: "y-axis-0"
-//                }]
             }
         };
 
         myLiveChart = new Chart(densityCanvas, {
             type: 'bar',
             data: chartData,
-            options: chartOptions
+            options: chartOptions,
         });
     }
+
+    function resetChart(page) {
+        var start = 8 * page;
+        var end = (8 * page) + 8;
+        myLiveChart.destroy();
+        var slicedLabel = labels.slice(start, end);
+        var slicedAnggaran = dataAnggaran.slice(start, end);
+        var data = {
+            label: 'Realisasi Uang dan Anggaran',
+            data: slicedAnggaran,
+            backgroundColor: 'rgba(99, 132, 0, 0.6)'
+        };
+        chartData = {
+            labels: slicedLabel,
+            datasets: [data]
+        };
+        initializeChart();
+    }
+
     var GetChartData = function () {
         $.ajax({
             url: "http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi",
             method: 'GET',
             dataType: 'json',
             success: function (json) {
-                var labels = json.map(function (item) {
+                labels = json.map(function (item) {
+//                    .split(" ").join("\n")
                     return item.nama_skpd;
                 });
-                var dataAnggaran = json.map(function (item) {
+
+                for (i = 0; i < labels.length; i++) {
+                    labels[i] = labels[i].split(" ");
+                }
+
+                dataAnggaran = json.map(function (item) {
                     return item.anggaran;
                 });
+
+                var slicedLabel = labels.slice(0, 7);
+                var slicedAnggaran = dataAnggaran.slice(0, 7);
                 var data = {
                     label: 'Realisasi Uang dan Anggaran',
-                    data: dataAnggaran,
+                    data: slicedAnggaran,
                     backgroundColor: 'rgba(99, 132, 0, 0.6)'
                 };
                 chartData = {
-                    labels: labels,
+                    labels: slicedLabel,
                     datasets: [data]
                 };
-
                 initializeChart();
+                console.log("Data anggaran length : "+dataAnggaran.length);
+                $('#pagination-demo').twbsPagination({
+                    totalPages: Math.ceil(dataAnggaran.length/8),
+                    visiblePages: 7,
+                    onPageClick: function (event, page) {
+                        page = page - 1;
+                        resetChart(page);
+                    }
+                });
             }
         });
     };
