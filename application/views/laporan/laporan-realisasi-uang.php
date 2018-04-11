@@ -69,6 +69,13 @@
                     ticks: {
                         autoSkip: false
                     }
+                }],
+                yAxes:[{
+                    ticks: {
+                        callback: function(value, index, values) {
+                            return 'Rp. '+ value.toLocaleString();
+                        }
+                    }
                 }]
             }
         };
