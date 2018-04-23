@@ -1,4 +1,4 @@
-<main class="col-md-11 mx-auto main w-100" id="mainSection">
+<main class="col-md-11 mx-auto main w-100 px-0 mt-3" id="mainSection">
     <form class="p-2 form-inline" style="border-bottom:3px solid black;">
         <div class="input-group mb-1">
             <select class="custom-select mx-auto form-inline" id="inputGroupSelect01">

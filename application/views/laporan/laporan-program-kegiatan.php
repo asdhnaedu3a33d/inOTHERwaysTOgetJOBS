@@ -1,4 +1,4 @@
-<main class="col-md-11 mx-auto main w-100" id="mainSection">
+<main class="col-md-11 mx-auto main w-100 px-0 mt-3" id="mainSection">
     <form class="p-2 form-inline" style="border-bottom:3px solid black;">
         <div class="input-group mb-1">
             <select class="custom-select mx-auto form-inline" id="inputGroupSelect01">
@@ -100,10 +100,10 @@
                             legendHtml.push('<div class="col-md-6 mx-auto order-2">');
                         else if (i === item.data.length / 2)
                             legendHtml.push('<div class="col-md-6 mx-auto order-1">');
-                        legendHtml.push('<span><i class="fa fa-database" style="font-weight: bolder; font-size: small; background-color:' + item.backgroundColor[i] + '"></i><strong>&nbsp;' + label[i] + '</strong></span>');
+                        legendHtml.push('<span><i class="icon-copy" style="font-weight: bolder; font-size: small; background-color:' + item.backgroundColor[i] + '"></i><strong>&nbsp;' + label[i] + '</strong></span>');
                         legendHtml.push('<p>' + item.data[i] + '</p>');
                         if (i === (item.data.length / 2) - 1 || i === item.data.length - 1) {
-                            legendHtml.push('<span><i class="fa fa-database" style="font-weight: bolder; font-size: small; background-color:' + item.backgroundColor[i] + '"></i><strong>&nbsp; Total</strong></span>');
+                            legendHtml.push('<span><i class="icon-copy" style="font-weight: bolder; font-size: small; background-color:' + item.backgroundColor[i] + '"></i><strong>&nbsp; Total</strong></span>');
                             legendHtml.push('<p>' + total + '</p>');
                             legendHtml.push('</div>');
                             total = 0;

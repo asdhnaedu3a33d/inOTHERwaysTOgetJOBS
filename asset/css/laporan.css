@@ -193,12 +193,12 @@
 
 .side-link {
     padding-left: 1rem;
-    outline:none;
+    outline: none;
     text-decoration: none;
     color: black;
 }
 
-.side-link:hover{
+.side-link:hover {
     background-color: #0A7EC5;
     color: white;
 }
@@ -227,8 +227,12 @@
     right: 0;
     bottom: 0;
     cursor: pointer;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, .3);
     opacity: 0.6;
     z-index: 990;
 }
 
+ul.my-topnav > li.active{
+    color: #383838;
+    border-bottom:3px solid #ff7f74;
+}

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f738bb4-4787-4ae7-8346-66742df7216f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/laporan.php" afterPath="$PROJECT_DIR$/application/controllers/laporan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/m_laporan.php" afterPath="$PROJECT_DIR$/application/models/m_laporan.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/laporan/laporan-program-kegiatan.php" afterPath="$PROJECT_DIR$/application/views/laporan/laporan-program-kegiatan.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/laporan/laporan-realisasi-uang.php" afterPath="$PROJECT_DIR$/application/views/laporan/laporan-realisasi-uang.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/laporan/template.php" afterPath="$PROJECT_DIR$/application/views/laporan/template.php" />
@@ -23,14 +21,21 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/laporan/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-868">
-              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            <state relative-caret-position="378">
+              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
               <folding>
-                <element signature="n#style#0;n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,12 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>body</find>
-      <find>renbangda</find>
-      <find>s</find>
-      <find>database</find>
-      <find>barchart</find>
-      <find>pixel</find>
       <find>height</find>
       <find>librar</find>
       <find>COUNT(tx_dpa_prog_keg.kd_urusan)</find>
@@ -66,6 +65,16 @@
       <find>right</find>
       <find>translatex</find>
       <find>side-</find>
+      <find>beran</find>
+      <find>laporan</find>
+      <find>beranda</find>
+      <find>fa</find>
+      <find>pemkab</find>
+      <find>pt-2</find>
+      <find>pemka</find>
+      <find>navbar</find>
+      <find>irenbangda</find>
+      <find>&lt;font</find>
     </findStrings>
     <replaceStrings>
       <replace>realisasiCanvas</replace>
@@ -83,9 +92,9 @@
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/controllers/laporan.php" />
         <option value="$PROJECT_DIR$/application/models/m_laporan.php" />
-        <option value="$PROJECT_DIR$/application/views/laporan/laporan-realisasi-uang.php" />
-        <option value="$PROJECT_DIR$/application/views/laporan/laporan-program-kegiatan.php" />
         <option value="$PROJECT_DIR$/asset/css/laporan.css" />
+        <option value="$PROJECT_DIR$/application/views/laporan/laporan-program-kegiatan.php" />
+        <option value="$PROJECT_DIR$/application/views/laporan/laporan-realisasi-uang.php" />
         <option value="$PROJECT_DIR$/application/views/laporan/template.php" />
       </list>
     </option>
@@ -118,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,6 +227,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,26 +352,26 @@
       <workItem from="1523959965421" duration="601000" />
       <workItem from="1524312795936" duration="2403000" />
       <workItem from="1524365962665" duration="9895000" />
+      <workItem from="1524491214001" duration="4405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71706000" />
+    <option name="totallyTimeSpent" value="76111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -383,59 +392,80 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/laporan/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/laporan/laporan-program-kegiatan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3131">
           <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
           <folding>
-            <marker date="1524375402758" expanded="true" signature="59:1924" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="102:132" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="133:1021" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="172:1009" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="259:839" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="894:994" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1060:1916" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1099:1482" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1188:1228" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1285:1325" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1521:1905" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1611:1651" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1708:1748" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1934:7464" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="2323:5374" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="2457:5144" ph="{&quot;type&quot;: 'doughnut'...}" />
-            <marker date="1524375402758" expanded="true" signature="2512:2562" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="2582:3086" ph="{&quot;labels&quot;: label...}" />
-            <marker date="1524375402758" expanded="true" signature="2641:3072" ph="[...]" />
-            <marker date="1524375402758" expanded="true" signature="2642:3071" ph="{&quot;label&quot;: 'Visitor'...}" />
-            <marker date="1524375402758" expanded="true" signature="2751:3053" ph="[...]" />
-            <marker date="1524375402758" expanded="true" signature="3109:5134" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3169:3223" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3251:3609" ph="{&quot;mode&quot;: 'label'...}" />
-            <marker date="1524375402758" expanded="true" signature="3354:3591" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3416:3569" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3660:5120" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3907:5054" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="4318:4374" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="4419:4425" ph=" " />
-            <marker date="1524375402758" expanded="true" signature="4625:5032" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="4711:4767" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="4812:4818" ph=" " />
-            <marker date="1524375402758" expanded="true" signature="5418:6352" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5435:6344" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-program&quot;...}" />
-            <marker date="1524375402758" expanded="true" signature="5637:6334" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5695:5778" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5838:5921" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5981:6066" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6126:6211" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6398:7346" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6415:7338" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-kegiatan&quot;...}" />
-            <marker date="1524375402758" expanded="true" signature="6618:7328" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6677:6761" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6822:6906" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6967:7053" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="7114:7200" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="7383:7453" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="69:1934" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="112:142" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="143:1031" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="182:1019" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="269:849" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="904:1004" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1070:1926" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1109:1492" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1198:1238" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1295:1335" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1531:1915" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1621:1661" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1718:1758" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1944:7464" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="2333:5374" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="2467:5144" ph="{&quot;type&quot;: 'doughnut'...}" />
+            <marker date="1524495018532" expanded="true" signature="2522:2572" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="2592:3096" ph="{&quot;labels&quot;: label...}" />
+            <marker date="1524495018532" expanded="true" signature="2651:3082" ph="[...]" />
+            <marker date="1524495018532" expanded="true" signature="2652:3081" ph="{&quot;label&quot;: 'Visitor'...}" />
+            <marker date="1524495018532" expanded="true" signature="2761:3063" ph="[...]" />
+            <marker date="1524495018532" expanded="true" signature="3119:5134" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3179:3233" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3261:3619" ph="{&quot;mode&quot;: 'label'...}" />
+            <marker date="1524495018532" expanded="true" signature="3364:3601" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3426:3579" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3670:5120" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3917:5054" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="4323:4379" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="4424:4430" ph=" " />
+            <marker date="1524495018532" expanded="true" signature="4630:5032" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="4711:4767" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="4812:4818" ph=" " />
+            <marker date="1524495018532" expanded="true" signature="5418:6352" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5435:6344" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-program&quot;...}" />
+            <marker date="1524495018532" expanded="true" signature="5637:6334" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5695:5778" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5838:5921" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5981:6066" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6126:6211" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6398:7346" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6415:7338" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-kegiatan&quot;...}" />
+            <marker date="1524495018532" expanded="true" signature="6618:7328" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6677:6761" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6822:6906" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6967:7053" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="7114:7200" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="7383:7453" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -445,41 +475,41 @@
         <state relative-caret-position="403">
           <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <folding>
-            <marker date="1524375402846" expanded="true" signature="59:1343" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="102:132" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="133:1021" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="172:1009" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="259:839" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="894:994" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1052:1249" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1091:1238" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1135:1223" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1369:4653" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1503:2486" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1734:2326" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1826:2316" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1851:2046" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="1852:2045" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1964:2027" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2070:2302" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="2071:2301" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2100:2283" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2167:2261" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2378:2478" ph="{&quot;type&quot;: 'bar'...}" />
-            <marker date="1524375402846" expanded="true" signature="2518:3024" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2747:2895" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="2917:2990" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="3061:4574" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3078:4566" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
-            <marker date="1524375402846" expanded="true" signature="3272:4556" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3324:3386" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3442:3515" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3573:3634" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3782:3962" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="3992:4089" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="4255:4540" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4416:4522" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4611:4642" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="69:1353" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="112:142" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="143:1031" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="182:1019" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="269:849" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="904:1004" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1062:1259" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1101:1248" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1145:1233" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1379:4663" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1513:2496" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1744:2336" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1836:2326" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1861:2056" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="1862:2055" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1974:2037" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2080:2312" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="2081:2311" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2110:2293" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2177:2271" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2388:2488" ph="{&quot;type&quot;: 'bar'...}" />
+            <marker date="1524495018469" expanded="true" signature="2528:3034" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2757:2905" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="2927:3000" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="3071:4584" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3088:4576" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
+            <marker date="1524495018469" expanded="true" signature="3282:4566" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3334:3396" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3452:3525" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3583:3644" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3792:3972" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="4002:4099" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="4265:4550" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4426:4532" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4621:4652" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -489,41 +519,41 @@
         <state relative-caret-position="403">
           <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <folding>
-            <marker date="1524375402846" expanded="true" signature="59:1343" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="102:132" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="133:1021" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="172:1009" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="259:839" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="894:994" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1052:1249" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1091:1238" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1135:1223" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1369:4653" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1503:2486" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1734:2326" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1826:2316" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1851:2046" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="1852:2045" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1964:2027" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2070:2302" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="2071:2301" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2100:2283" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2167:2261" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2378:2478" ph="{&quot;type&quot;: 'bar'...}" />
-            <marker date="1524375402846" expanded="true" signature="2518:3024" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2747:2895" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="2917:2990" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="3061:4574" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3078:4566" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
-            <marker date="1524375402846" expanded="true" signature="3272:4556" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3324:3386" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3442:3515" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3573:3634" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3782:3962" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="3992:4089" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="4255:4540" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4416:4522" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4611:4642" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="69:1353" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="112:142" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="143:1031" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="182:1019" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="269:849" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="904:1004" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1062:1259" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1101:1248" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1145:1233" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1379:4663" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1513:2496" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1744:2336" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1836:2326" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1861:2056" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="1862:2055" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1974:2037" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2080:2312" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="2081:2311" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2110:2293" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2177:2271" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2388:2488" ph="{&quot;type&quot;: 'bar'...}" />
+            <marker date="1524495018469" expanded="true" signature="2528:3034" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2757:2905" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="2927:3000" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="3071:4584" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3088:4576" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
+            <marker date="1524495018469" expanded="true" signature="3282:4566" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3334:3396" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3452:3525" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3583:3644" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3792:3972" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="4002:4099" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="4265:4550" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4426:4532" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4621:4652" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -540,41 +570,41 @@
         <state relative-caret-position="3906">
           <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
           <folding>
-            <marker date="1524375402846" expanded="true" signature="59:1343" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="102:132" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="133:1021" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="172:1009" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="259:839" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="894:994" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1052:1249" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1091:1238" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1135:1223" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1369:4653" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1503:2486" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1734:2326" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1826:2316" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1851:2046" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="1852:2045" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1964:2027" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2070:2302" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="2071:2301" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2100:2283" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2167:2261" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2378:2478" ph="{&quot;type&quot;: 'bar'...}" />
-            <marker date="1524375402846" expanded="true" signature="2518:3024" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2747:2895" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="2917:2990" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="3061:4574" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3078:4566" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
-            <marker date="1524375402846" expanded="true" signature="3272:4556" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3324:3386" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3442:3515" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3573:3634" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3782:3962" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="3992:4089" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="4255:4540" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4416:4522" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4611:4642" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="69:1353" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="112:142" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="143:1031" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="182:1019" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="269:849" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="904:1004" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1062:1259" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1101:1248" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1145:1233" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1379:4663" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1513:2496" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1744:2336" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1836:2326" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1861:2056" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="1862:2055" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1974:2037" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2080:2312" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="2081:2311" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2110:2293" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2177:2271" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2388:2488" ph="{&quot;type&quot;: 'bar'...}" />
+            <marker date="1524495018469" expanded="true" signature="2528:3034" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2757:2905" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="2927:3000" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="3071:4584" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3088:4576" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
+            <marker date="1524495018469" expanded="true" signature="3282:4566" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3334:3396" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3452:3525" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3583:3644" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3792:3972" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="4002:4099" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="4265:4550" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4426:4532" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4621:4652" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -782,162 +812,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/laporan/laporan-program-kegiatan.php">
+    <entry file="file://$PROJECT_DIR$/asset/css/laporan.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="455">
+          <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding>
-            <marker date="1524375402758" expanded="true" signature="59:1924" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="102:132" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="133:1021" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="172:1009" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="259:839" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="894:994" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1060:1916" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1099:1482" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1188:1228" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1285:1325" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1521:1905" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1611:1651" ph="..." />
-            <marker date="1524375402758" expanded="false" signature="1708:1748" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="1934:7464" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="2323:5374" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="2457:5144" ph="{&quot;type&quot;: 'doughnut'...}" />
-            <marker date="1524375402758" expanded="true" signature="2512:2562" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="2582:3086" ph="{&quot;labels&quot;: label...}" />
-            <marker date="1524375402758" expanded="true" signature="2641:3072" ph="[...]" />
-            <marker date="1524375402758" expanded="true" signature="2642:3071" ph="{&quot;label&quot;: 'Visitor'...}" />
-            <marker date="1524375402758" expanded="true" signature="2751:3053" ph="[...]" />
-            <marker date="1524375402758" expanded="true" signature="3109:5134" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3169:3223" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3251:3609" ph="{&quot;mode&quot;: 'label'...}" />
-            <marker date="1524375402758" expanded="true" signature="3354:3591" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3416:3569" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3660:5120" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="3907:5054" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="4318:4374" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="4419:4425" ph=" " />
-            <marker date="1524375402758" expanded="true" signature="4625:5032" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="4711:4767" ph="..." />
-            <marker date="1524375402758" expanded="true" signature="4812:4818" ph=" " />
-            <marker date="1524375402758" expanded="true" signature="5418:6352" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5435:6344" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-program&quot;...}" />
-            <marker date="1524375402758" expanded="true" signature="5637:6334" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5695:5778" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5838:5921" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="5981:6066" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6126:6211" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6398:7346" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6415:7338" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-kegiatan&quot;...}" />
-            <marker date="1524375402758" expanded="true" signature="6618:7328" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6677:6761" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6822:6906" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="6967:7053" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="7114:7200" ph="{...}" />
-            <marker date="1524375402758" expanded="true" signature="7383:7453" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="9:50" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="73:150" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="163:189" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="217:357" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="429:460" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="549:672" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="751:782" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="851:974" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1088:1115" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1253:1280" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1367:1394" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1422:2430" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1437:1648" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1668:1709" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1743:1770" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1807:1866" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="1988:2081" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="2127:2193" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="2398:2428" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="2447:2475" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="2489:2722" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="2742:2965" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="2981:3009" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3034:3112" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3132:3200" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3221:3266" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3280:3403" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3423:3444" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3477:3507" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3522:3750" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3770:3829" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3842:3933" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="3952:4004" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="4019:4200" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="4210:4382" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="4393:4588" ph="{...}" />
+            <marker date="1524493665654" expanded="true" signature="4614:4674" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asset/css/laporan.css">
+    <entry file="file://$PROJECT_DIR$/application/views/laporan/laporan-program-kegiatan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="211" column="1" lean-forward="true" selection-start-line="211" selection-start-column="1" selection-end-line="211" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
           <folding>
-            <marker date="1524375706732" expanded="true" signature="9:50" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="73:150" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="163:189" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="217:357" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="429:460" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="549:672" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="751:782" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="851:974" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1088:1115" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1253:1280" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1367:1394" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1422:2430" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1437:1648" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1668:1709" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1743:1770" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1807:1866" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="1988:2081" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="2127:2193" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="2398:2428" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="2447:2475" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="2489:2722" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="2742:2965" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="2981:3009" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3034:3112" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3132:3200" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3221:3266" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3280:3403" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3423:3444" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3477:3507" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3522:3750" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3770:3829" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3842:3932" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="3950:4002" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="4017:4198" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="4208:4380" ph="{...}" />
-            <marker date="1524375706732" expanded="true" signature="4391:4583" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="69:1934" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="112:142" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="143:1031" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="182:1019" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="269:849" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="904:1004" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1070:1926" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1109:1492" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1198:1238" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1295:1335" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1531:1915" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1621:1661" ph="..." />
+            <marker date="1524495018532" expanded="false" signature="1718:1758" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="1944:7464" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="2333:5374" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="2467:5144" ph="{&quot;type&quot;: 'doughnut'...}" />
+            <marker date="1524495018532" expanded="true" signature="2522:2572" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="2592:3096" ph="{&quot;labels&quot;: label...}" />
+            <marker date="1524495018532" expanded="true" signature="2651:3082" ph="[...]" />
+            <marker date="1524495018532" expanded="true" signature="2652:3081" ph="{&quot;label&quot;: 'Visitor'...}" />
+            <marker date="1524495018532" expanded="true" signature="2761:3063" ph="[...]" />
+            <marker date="1524495018532" expanded="true" signature="3119:5134" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3179:3233" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3261:3619" ph="{&quot;mode&quot;: 'label'...}" />
+            <marker date="1524495018532" expanded="true" signature="3364:3601" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3426:3579" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3670:5120" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="3917:5054" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="4323:4379" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="4424:4430" ph=" " />
+            <marker date="1524495018532" expanded="true" signature="4630:5032" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="4711:4767" ph="..." />
+            <marker date="1524495018532" expanded="true" signature="4812:4818" ph=" " />
+            <marker date="1524495018532" expanded="true" signature="5418:6352" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5435:6344" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-program&quot;...}" />
+            <marker date="1524495018532" expanded="true" signature="5637:6334" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5695:5778" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5838:5921" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="5981:6066" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6126:6211" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6398:7346" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6415:7338" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/rkpd-apbd-kegiatan&quot;...}" />
+            <marker date="1524495018532" expanded="true" signature="6618:7328" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6677:6761" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6822:6906" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="6967:7053" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="7114:7200" ph="{...}" />
+            <marker date="1524495018532" expanded="true" signature="7383:7453" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/laporan/laporan-realisasi-uang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="403">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
-            <marker date="1524375402846" expanded="true" signature="59:1343" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="102:132" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="133:1021" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="172:1009" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="259:839" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="894:994" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1052:1249" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1091:1238" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1135:1223" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1369:4653" ph="..." />
-            <marker date="1524375402846" expanded="true" signature="1503:2486" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1734:2326" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1826:2316" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1851:2046" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="1852:2045" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="1964:2027" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2070:2302" ph="[...]" />
-            <marker date="1524375402846" expanded="true" signature="2071:2301" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2100:2283" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2167:2261" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2378:2478" ph="{&quot;type&quot;: 'bar'...}" />
-            <marker date="1524375402846" expanded="true" signature="2518:3024" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="2747:2895" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="2917:2990" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="3061:4574" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3078:4566" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
-            <marker date="1524375402846" expanded="true" signature="3272:4556" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3324:3386" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3442:3515" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3573:3634" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="3782:3962" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
-            <marker date="1524375402846" expanded="true" signature="3992:4089" ph="{&quot;labels&quot;: slicedLabel...}" />
-            <marker date="1524375402846" expanded="true" signature="4255:4540" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4416:4522" ph="{...}" />
-            <marker date="1524375402846" expanded="true" signature="4611:4642" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="69:1353" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="112:142" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="143:1031" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="182:1019" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="269:849" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="904:1004" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1062:1259" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1101:1248" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1145:1233" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1379:4663" ph="..." />
+            <marker date="1524495018469" expanded="true" signature="1513:2496" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1744:2336" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1836:2326" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1861:2056" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="1862:2055" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="1974:2037" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2080:2312" ph="[...]" />
+            <marker date="1524495018469" expanded="true" signature="2081:2311" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2110:2293" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2177:2271" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2388:2488" ph="{&quot;type&quot;: 'bar'...}" />
+            <marker date="1524495018469" expanded="true" signature="2528:3034" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="2757:2905" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="2927:3000" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="3071:4584" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3088:4576" ph="{&quot;url&quot;: &quot;http://103.29.196.246/sirenbangda/2018-dev/laporan/getChartDataJson/realisasi&quot;...}" />
+            <marker date="1524495018469" expanded="true" signature="3282:4566" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3334:3396" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3452:3525" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3583:3644" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="3792:3972" ph="{&quot;label&quot;: 'Realisasi Uang dan Anggaran'...}" />
+            <marker date="1524495018469" expanded="true" signature="4002:4099" ph="{&quot;labels&quot;: slicedLabel...}" />
+            <marker date="1524495018469" expanded="true" signature="4265:4550" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4426:4532" ph="{...}" />
+            <marker date="1524495018469" expanded="true" signature="4621:4652" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/laporan/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="378">
+          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
