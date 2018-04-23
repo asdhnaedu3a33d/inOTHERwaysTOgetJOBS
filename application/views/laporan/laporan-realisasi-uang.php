@@ -1,49 +1,32 @@
-<main class="col-md-9 float-left mx-auto main w-100" id="mainSection">
-    <div class="p-2" style="border-bottom:3px solid black;">
+<main class="col-md-11 mx-auto main w-100" id="mainSection">
+    <form class="p-2 form-inline" style="border-bottom:3px solid black;">
         <div class="input-group mb-1">
-            <select class="custom-select mr-2 ml-2" id="inputGroupSelect01">
+            <select class="custom-select mx-auto form-inline" id="inputGroupSelect01">
                 <option selected>Tahun</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
-            <select class="custom-select mr-2 ml-2" id="inputGroupSelect01">
-                <option selected>Triwulan</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
-            <select class="custom-select mr-2 ml-2" id="inputGroupSelect01">
-                <option selected>Perangkat Daerah</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
             </select>
             <div class="input-group-append mr-2 ml-2">
-                <button class="btn btn-outline-secondary" type="button">Button</button>
+                <button class="btn btn-success" type="button">Pencarian</button>
             </div>
         </div>
-    </div>
-    <!--            <div class="chartjs-size-monitor"-->
-    <!--                 style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">-->
-    <!--                <div class="chartjs-size-monitor-expand"-->
-    <!--                     style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">-->
-    <!--                    <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div>-->
-    <!--                </div>-->
-    <!--                <div class="chartjs-size-monitor-shrink"-->
-    <!--                     style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">-->
-    <!--                    <div style="position:absolute;width:200%;height:200%;left:0; top:0"></div>-->
-    <!--                </div>-->
-    <!--            </div>-->
+    </form>
     <div class="chartWrapper">
         <div class="chartAreaWrapper">
             <div class="chartAreaWrapper2">
-                <canvas id="densityChart" height="500px"></canvas>
+                <canvas id="realisasiChart" height="500px"></canvas>
             </div>
         </div>
     </div>
     <ul id="pagination-demo" class="pagination-centered justify-content-center"></ul>
-
 </main>
 
 <!-- Graphs -->
@@ -54,7 +37,7 @@
     var dataAnggaran = [];
 
     function initializeChart() {
-        var densityCanvas = document.getElementById("densityChart").getContext("2d");
+        var realisasiCanvas = document.getElementById("realisasiChart").getContext("2d");
 
         Chart.defaults.global.defaultFontFamily = "Lato";
         Chart.defaults.global.defaultFontSize = 16;
@@ -80,7 +63,7 @@
             }
         };
 
-        myLiveChart = new Chart(densityCanvas, {
+        myLiveChart = new Chart(realisasiCanvas, {
             type: 'bar',
             data: chartData,
             options: chartOptions,
@@ -112,7 +95,6 @@
             dataType: 'json',
             success: function (json) {
                 labels = json.map(function (item) {
-//                    .split(" ").join("\n")
                     return item.nama_skpd;
                 });
 

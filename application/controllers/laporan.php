@@ -28,20 +28,12 @@ class Laporan extends CI_Controller {
                 $data = $this->m_laporan->getRealisasiUang();
                 echo json_encode($data);
                 break;
-            case 'rkpd-kegiatan':
-                $data = $this->m_laporan->getRkpdKegiatan();
+            case 'rkpd-apbd-kegiatan':
+                $data = $this->m_laporan->getRkpdApbdKegiatan();
                 echo json_encode($data);
                 break;
-            case 'rkpd-program':
-                $data = $this->m_laporan->getRkpdProgram();
-                echo json_encode($data);
-                break;
-            case 'apbd-kegiatan':
-                $data = $this->m_laporan->getApbdKegiatan();
-                echo json_encode($data);
-                break;
-            case 'apbd-program':
-                $data = $this->m_laporan->getApbdProgram();
+            case 'rkpd-apbd-program':
+                $data = $this->m_laporan->getRkpdApbdProgram();
                 echo json_encode($data);
                 break;
             default:
