@@ -121,7 +121,7 @@
                 console.log("Data anggaran length : "+dataAnggaran.length);
                 $('#pagination-demo').twbsPagination({
                     totalPages: Math.ceil(dataAnggaran.length/8),
-                    visiblePages: 7,
+                    visiblePages: 4,
                     onPageClick: function (event, page) {
                         page = page - 1;
                         resetChart(page);

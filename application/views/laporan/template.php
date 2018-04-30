@@ -38,7 +38,7 @@
     <ul class="navbar-side" id="navbarSide">
         <li class="navbar-side-item">
             <div class="container">
-                <h3>Side Menu <span style="cursor: pointer;" class="pull-right" onclick="closeSideBar()"><i class="fa fa-times"></i></span></h3>
+                <h3>Side Menu <span style="cursor: pointer;" class="pull-right" onclick="closeSideBar()"><i class="icon-close"></i></span></h3>
             </div>
             <a href="http://103.29.196.246/sirenbangda/2018-dev/laporan/rkpd_apbd" class="side-link d-block my-1"><i
                         class="icon-calendar mr-2"></i>Jumlah Program Kegiatan</a>
@@ -57,10 +57,10 @@
            class="navbar-brand" href="http://103.29.196.246/sirenbangda/2018-dev/">
             <img style="margin-top:-10px; margin-right:-3px;" height="35" width="35"
                  src="<?php echo site_url('asset/images/S_4_sirenbangda.png'); ?>"><strong>IRENBANGDA</strong> <i
-                    style="color: white; font-size: 10px;">Sistem Informasi Perencananaan Pembangunan Daerah</i>
+                    style="color: white; font-size: 10px;" class="d-lg-inline d-none">Sistem Informasi Perencananaan Pembangunan Daerah</i>
         </a>
         <!--        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">SIRENBANGDA</a>-->
-        <div class="pull-right pr-lg-4 mr-lg-2">
+        <div class="pull-right pr-lg-4 mr-lg-2 d-lg-block d-none">
             <a href="http://103.29.196.246/sirenbangda/2018-dev/"><span class="navbar-brand"><strong>PEMKAB.
                     KLUNGKUNG</strong></span><img
                         src="<?php echo site_url("asset/themes/modify-style/images/template/klk.png") ?>" height="40"
